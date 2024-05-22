@@ -1,0 +1,28 @@
+.code-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  width: 600px;
+  border: 2px solid royalblue;
+  border-radius: 25px;
+  padding: 0 30px;
+}
+
+.gradient-code {
+  background: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  overflow: auto;
+}
+
+.copy {
+  font-size: 30px;
+  cursor: pointer;
+  color: royalblue;
+  &:hover {
+    opacity: 0.8;
+    transition: 0.4s;
+  }
+}
